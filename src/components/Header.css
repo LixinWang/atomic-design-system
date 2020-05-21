@@ -1,0 +1,51 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 100;
+}
+
+.HeaderGroup {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  /* Takes max width of 800 divide by 5 */
+  /* Auto means spacing varies depending on amt of text */
+  grid-template-columns: repeat(5, auto);
+  align-items: center; /* align vertical */
+  justify-items: center; /* align horizontal */
+}
+
+.Header a {
+  color: #3DBFB7;
+  font-weight: 700;
+}
+
+.Header button {
+  color: #FFFFFF;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #6B5C43;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+@media (max-width: 640px) {
+  .Header {
+    padding: 15px 0;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .Header a:nth-child(4){ /* hides 4th column when smaller than 640px */
+    display: none;
+  }
+
+}
