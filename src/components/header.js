@@ -12,10 +12,10 @@ const Header = ({ siteTitle }) => (
       <Link to="/"><img src={require
         ('../images/Icons/Leaf.svg')}
         width="30" /></Link>
-      <Link to="/page2">Page 2</Link>
-      <Link to="/page3">Page 3</Link>
-      <Link to="/page4">Page 4</Link>
-      <Link to="/page5"><button>Button</button></Link>
+      <Link to="/atoms">Atoms</Link>
+      <Link to="/404">Molecules</Link>
+      <Link to="/404">Organisms</Link>
+      <Link to="/404"><button>Button</button></Link>
     </div>
   </div>
 )
