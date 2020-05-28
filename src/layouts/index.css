@@ -99,6 +99,21 @@ a {
   box-shadow: 0 4px 10px rgba(0,0,0, 0.25);
 }
 
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* .Hero svg .hat {
+  z-index: 100;
+  margin-top: 40px;
+  stroke-width: 12px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 4s ease-in forwards alternate;
+} */
+
 @media (max-width: 640px) {
   .HeroGroup {
     padding: 100px 20px;
@@ -122,5 +137,11 @@ a {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
   }
 }
