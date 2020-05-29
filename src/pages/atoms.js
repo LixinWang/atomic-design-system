@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/Card'
+import '../layouts/Atoms.css'
 
 const AtomsPage = () => (
   <div>
@@ -7,12 +9,23 @@ const AtomsPage = () => (
 
       <div className="HeroGroup">
         <h2>Atoms</h2>
-        <p>Atoms are the foundational building blocks of our user interfaces. Atoms can't be broken down any further without losing its fuction.</p>
+        <p>Atoms are the foundational building blocks of our user interface. Atoms can't be broken down any further without losing their fuction.</p>
       </div>
 
-
-        <h3>Buttons</h3>
-        <Link to="/page-2/"><button>Button</button></Link>
+        <div className="CardGroup">
+          <Card
+            title="Typography"
+            text="Text" />
+          <Card
+            title="Color"
+            text="Text" />
+          <Card
+            title="Assets"
+            text="Text" />
+          <Card
+            title="Buttons"
+            text="Text" />
+        </div>
 
     </div>
     
