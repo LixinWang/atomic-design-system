@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import '../layouts/index.css'
 
 const IndexPage = () => (
   <div>
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h2>Atomic Design <br/>System</h2>
+    <div className="Home">
+      <div className="HomeGroup">
+        <animatedTitle>Atomic Design <br/>System</animatedTitle>
         <p>Reusable components with a cute Animal Crossing theme. Build with React and Gatsby.js</p>
         <Link to="/page-2/"><button>Click Me</button></Link>
         {/* <div/>
