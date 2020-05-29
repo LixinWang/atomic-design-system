@@ -30,6 +30,7 @@ a {
   height: 100vh;
   background-size: cover; /* cover entire container. Will stretch & crop image */
   background-position: right bottom; /* align bg img to right of browser window */
+  background-attachment: fixed;
 }
 
 .HomeGroup {
