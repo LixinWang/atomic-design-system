@@ -122,11 +122,10 @@ button:hover {
 /* --------------------------CARD GROUP ------------------------*/
 
 .CardGroup {
-  margin: 50px 40px 0 0;
-  padding: 0 0 100px;
+  margin: 50px 40px 0 40px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 40px;
+  grid-row-gap: 20px;
   justify-items: center;
 }
 

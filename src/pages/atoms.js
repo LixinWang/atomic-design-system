@@ -15,16 +15,35 @@ const AtomsPage = () => (
         <div className="CardGroup">
           <Card
             title="Typography"
-            text="Text" />
+            text="Heading texts use Zilla Slab. Body texts use Quicksand."
+            h1="Heading 1"
+            h1size="80px"
+            h2="Heading 2"
+            h2size="60px"
+            h3="Heading 3"
+            h3size="30px"
+            h4="Heading 4"
+            h4size="24px"
+          />
+
           <Card
             title="Color"
-            text="Text" />
+            text="Text"
+
+          />
+
           <Card
             title="Assets"
-            text="Text" />
+            text="Text"
+            
+          />
+
           <Card
             title="Buttons"
-            text="Text" />
+            text="Text"
+            
+          />
+          
         </div>
 
     </div>

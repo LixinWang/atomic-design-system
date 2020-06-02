@@ -1,28 +1,28 @@
 .Card {
     width: 75%;
     height: fit-content;
+    background: #ffffff;
     position: relative;
     overflow: hidden; /* Uses card layer as mask */
     border-radius: 20px;
-    background: #ffffff;
     box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
+    justify-items: center;
+    margin: 40px 0;
 }
 
-.Card h3 {
-    font-family: 'Zilla Slab', serif;
-    font-size: 30px;
-    color: #6B5C43;
-    margin: 20px 0 0 20px;
-    font-weight: normal;
-    line-height: 1.2;
-    width: 490px;
+.CardContent {
+    position: relative;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin: 0;
 }
 
-.Card p {
-    color: #6B5C4390;
-    font-weight: 600;
-    font-size: 18px;
-    align-self: end;
-    margin: 0 0 20px 20px;
-    animation: none;
+@media (max-width: 1000px) {
+    .CardContent {
+        padding: 0 16px;
+    }
 }

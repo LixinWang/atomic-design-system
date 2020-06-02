@@ -17,9 +17,8 @@ const SectionGroup = styled.div`
     @media (max-width: 640px) {
         height: 820px;
     }
-    
-
 `
+
 const SectionLogo = styled.img`
     align-self: end;
     width: 128px;
@@ -54,6 +53,7 @@ const SectionText = styled.a`
     color: rgba(107, 92, 67, 0.8);
     font-size: 24px;
 `
+
 const WaveTop = styled.div`
     position:absolute;
     width:100%;
