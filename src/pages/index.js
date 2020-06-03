@@ -8,8 +8,8 @@ const IndexPage = () => (
   <div>
     <div className="Home">
       <div className="HomeGroup">
-        <div className="AnimatedTitle">Atomic Design <br/>System</div>
-        <p>Reusable components with a cute Animal Crossing theme. Build with React and Gatsby.js</p>
+        <h2 id="animated">Atomic Design <br/>System</h2>
+        <p id="animated">Reusable components with a cute Animal Crossing theme. Build with React and Gatsby.js</p>
         <Link to="/page-2/"><button>Click Me</button></Link>
         {/* <div/>
         <svg class="hat" width="200" height="160" viewBox="0 0 200 78" fill="none" xmlns="http://www.w3.org/2000/svg">

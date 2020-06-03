@@ -1,4 +1,26 @@
-.Card {
+.CardGroup {
+    margin: 50px 40px 0 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+  }
+  
+  @media (max-width: 640px) {
+    .HomeGroup {
+      padding: 100px 20px;
+    }
+  
+    .Home h1 {
+      font-size: 40px;
+    }
+  
+    .Home p {
+      font-size: 24px;
+    }
+  }
+  
+  .Card {
     width: 75%;
     height: fit-content;
     background: #ffffff;
@@ -8,9 +30,9 @@
     box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
     justify-items: center;
     margin: 40px 0;
-}
-
-.CardContent {
+  }
+  
+  .CardContent {
     position: relative;
     display: grid;
     grid-gap: 8px;
@@ -19,10 +41,11 @@
     align-items: center;
     padding: 0 0 0 0;
     margin: 0;
-}
-
-@media (max-width: 1000px) {
+  }
+  
+  @media (max-width: 1000px) {
     .CardContent {
         padding: 0 16px;
     }
-}
+  }
+  

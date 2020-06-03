@@ -43,7 +43,7 @@ const AtomsPage = () => (
             text="Text"
             
           />
-          
+
         </div>
 
     </div>

@@ -49,9 +49,11 @@ const SectionTitle = styled.h3`
     }
 `
 
-const SectionText = styled.a`
+const SectionText = styled.p`
     color: rgba(107, 92, 67, 0.8);
     font-size: 24px;
+    animation: none;
+    opacity: 1;
 `
 
 const WaveTop = styled.div`

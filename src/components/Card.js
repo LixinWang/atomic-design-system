@@ -21,38 +21,28 @@ const TypographyGroup = styled.div`
     }
 `
 const Title = styled.h3`
-    font-family: 'Zilla Slab', serif;
-    font-size: 30px;
     color: #3DBFB7;
-    font-weight: normal;
-    line-height: 1.2;
     margin: 20px 0 10px 0;
 `
 const Description = styled.p`
-    color: #6B5C4390;
-    font-weight: 600;
-    font-size: 18px;
     margin: 0 0 20px 0;
-    animation: none;
 `
-const Heading1 = styled.h1`
-    color: #6B5C43;
-    font-size: 80px;
-    align: left;
-`
-const Heading2 = styled.h2`
-    color: #6B5C43;
-    font-size: 60px;
-    align: left;
-`
-const Heading3 = styled.h3`
-    color: #6B5C43;
-    font-size: 40px;
-`
-const Heading4 = styled.h4`
-    color: #6B5C43;
-    font-size: 24px;
-`
+// const Heading1 = styled.h1`
+//     color: #6B5C43;
+//     font-size: 80px;
+// `
+// const Heading2 = styled.h2`
+//     color: #6B5C43;
+//     font-size: 60px;
+// `
+// const Heading3 = styled.h3`
+//     color: #6B5C43;
+//     font-size: 40px;
+// `
+// const Heading4 = styled.h4`
+//     color: #6B5C43;
+//     font-size: 24px;
+// `
 
 const Card = ({
     title, text,
@@ -67,15 +57,21 @@ const Card = ({
         </div>
         
         <TypographyGroup>
-            <Heading1>{h1}</Heading1>
-            <Heading1>{h1size}</Heading1>
-            <Heading2>{h2}</Heading2>
-            <Heading2>{h2size}</Heading2>
-            <Heading3>{h3}</Heading3>
-            <Heading3>{h3size}</Heading3>
-            <Heading4>{h4}</Heading4>
-            <Heading4>{h4size}</Heading4>
+            <h1>{h1}</h1>
+            <h1>{h1size}</h1>
+            <h2>{h2}</h2>
+            <h2>{h2size}</h2>
+            <h3>{h3}</h3>
+            <h3>{h3size}</h3>
+            <h4>{h4}</h4>
+            <h4>{h4size}</h4>
         </TypographyGroup>
+
+        <TypographyGroup>
+            <p class="small">{h1}</p>
+            <p>{h1size}</p>
+        </TypographyGroup>
+        
     </div>
     
 )
